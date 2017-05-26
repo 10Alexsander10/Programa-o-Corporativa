@@ -1,0 +1,20 @@
+package questao1;
+
+public class Onibus {
+	
+	public int id;
+	public int capacidade;
+	
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public int getCapacidade() {
+		return capacidade;
+	}
+	public void setCapacidade(int capacidade) {
+		this.capacidade = capacidade;
+	}
+}

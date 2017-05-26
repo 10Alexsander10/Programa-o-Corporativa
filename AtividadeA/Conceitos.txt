@@ -1,0 +1,27 @@
+  1) Transporte Urbano.
+
+    Ônibus – Atributos: Id, Capacidade.
+    Ponto – Atributos: Numero, local;
+    Linha – Atributos: Id, Conjunto de ônibus, Conjuntos de Pontos.
+
+  2) Sistema Controle de Autorização/Autenticação/Permissões.
+
+    Usuário – Atributos: Nome, senha, grupo.
+    Permissão – Atributos: Status, Conjunto de Usuários.
+    Grupo – Atributos: Identificação, Nivel de Acesso.  	
+
+  3) Transporte Aéreo.
+
+    Aeronave – Atributos: Id, Tripulantes, capacidade.
+    Aeroporto – Atributos: Nome, Empresas, Rotas, Vôos.
+    Empresa – Nome, Aeronaves.
+    Vôo – Atributos: id, Rota, Horários, Empresa, Aeronave.
+    Rota – Atributos: id, Trajeto.
+
+  4) Programa fidelidade/recompensa/resgate.
+
+    Empresa – Atributos: Nome, Produtos.
+    Compras – Atributos: Produtos,valor total. 
+    Produto – Atributos: Nome, valor.
+    Cliente – Atributos: Nome, Compras, Recompensas.
+    Recompensa – Atributos: Itens, Pontuação.
